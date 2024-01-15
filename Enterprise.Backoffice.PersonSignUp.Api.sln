@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.Backoffice.PersonSignUp.Api", "Enterprise.Backoffice.PersonSignUp.Api\Enterprise.Backoffice.PersonSignUp.Api.csproj", "{2E69ABEC-5896-4243-B8D1-F56C579758AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{68B707DB-1C06-4280-8DDB-D45347B87394}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{29E5534C-270D-48B0-B5B8-9EF7CA2FB10F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infraestructure", "3 - Infraestructure", "{146AFE18-6ED7-4AE4-8018-0BC5FD9D4045}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - CrossCutting", "4 - CrossCutting", "{9C46CE3C-D188-4A13-A8A8-14DC9C04FDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{DBE31357-6E7E-4C77-B19C-ED3386210107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backoffice.PersonSignUp.Domain", "Backoffice.PersonSignUp.Domain\Backoffice.PersonSignUp.Domain.csproj", "{50107639-CCAA-4C75-AF95-588B3F1A0223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backoffice.PersonSignUp.CrossCutting", "Backoffice.PersonSignUp.CrossCutting\Backoffice.PersonSignUp.CrossCutting.csproj", "{B58BACDD-9778-4AE7-8F17-CCC6565421AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E69ABEC-5896-4243-B8D1-F56C579758AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E69ABEC-5896-4243-B8D1-F56C579758AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E69ABEC-5896-4243-B8D1-F56C579758AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E69ABEC-5896-4243-B8D1-F56C579758AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50107639-CCAA-4C75-AF95-588B3F1A0223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50107639-CCAA-4C75-AF95-588B3F1A0223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50107639-CCAA-4C75-AF95-588B3F1A0223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50107639-CCAA-4C75-AF95-588B3F1A0223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58BACDD-9778-4AE7-8F17-CCC6565421AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58BACDD-9778-4AE7-8F17-CCC6565421AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58BACDD-9778-4AE7-8F17-CCC6565421AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58BACDD-9778-4AE7-8F17-CCC6565421AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E69ABEC-5896-4243-B8D1-F56C579758AB} = {68B707DB-1C06-4280-8DDB-D45347B87394}
+		{50107639-CCAA-4C75-AF95-588B3F1A0223} = {29E5534C-270D-48B0-B5B8-9EF7CA2FB10F}
+		{B58BACDD-9778-4AE7-8F17-CCC6565421AA} = {9C46CE3C-D188-4A13-A8A8-14DC9C04FDC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACC5176E-8421-463C-BE6B-B8963A0E4D3A}
+	EndGlobalSection
+EndGlobal
